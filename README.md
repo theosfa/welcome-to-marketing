@@ -4,7 +4,7 @@
 
 ### Little page about some marketing agency 
 
-## Project setup
+# Project setup
 ```
 npm install
 ```
