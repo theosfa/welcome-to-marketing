@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap" rel="stylesheet">
+
+    
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <div></div>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app" class="content"></div>
+    <!-- built files will be auto injected -->
+  </body>
+  <style>
+    body{
+      margin: 0px;
+    }
+    body, html {
+      /* scrollbar-width: none; Firefox */
+      /* -ms-overflow-style: none; IE 10+ */
+    }
+
+    /* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+    body::-webkit-scrollbar {
+      /* display: none; */
+    }
+    .content {
+      /* overflow-y: scroll; Add a scrollbar if the content overflows vertically */
+      /* padding: 20px; Add padding to keep content away from edges */
+      /* width: auto; */
+      /* Styling for the scrollbar */
+      /* scrollbar-width: thin; Thin scrollbar */
+      /* scrollbar-color: #282828 transparent; Color for the thumb and track */
+    }
+    .content::-webkit-scrollbar-track {
+      /* background: transparent; Transparent background */
+    }
+
+    /* Thumb */
+    .content::-webkit-scrollbar-thumb {
+      /* background: #8d0c0c; Color for the thumb */
+      /* border-radius: 10px; Rounded corners */
+    }
+
+    /* Handle on hover */
+    .content::-webkit-scrollbar-thumb:hover {
+      /* background: #555; Darker color on hover */
+    }
+  </style>
+</html>
