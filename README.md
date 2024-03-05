@@ -1,8 +1,8 @@
 # Welkome to marketing
 
-\t ## About
+## About
 
-\t ### Little page about some marketing agency 
+### Little page about some marketing agency 
 
 # Project setup
 ```
